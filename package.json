@@ -1,56 +1,9 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "iview",
-        "scope": null,
-        "escapedName": "iview",
-        "name": "iview",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "E:\\Workspaces\\koa2\\koa2"
-    ]
-  ],
-  "_from": "iview@latest",
-  "_id": "iview@2.0.0-rc.18",
-  "_inCache": true,
-  "_location": "/iview",
-  "_nodeVersion": "8.0.0",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/iview-2.0.0-rc.18.tgz_1499044679716_0.24945697514340281"
-  },
-  "_npmUser": {
-    "name": "aresn",
-    "email": "admin@aresn.com"
-  },
-  "_npmVersion": "5.0.2",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "iview",
-    "scope": null,
-    "escapedName": "iview",
-    "name": "iview",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/iview/-/iview-2.0.0-rc.18.tgz",
-  "_shasum": "c00a11643622626feeb277e0de83b45077a8787c",
-  "_shrinkwrap": null,
-  "_spec": "iview",
-  "_where": "E:\\Workspaces\\koa2\\koa2",
   "author": {
     "name": "Aresn"
   },
   "bugs": {
-    "url": "https://github.com/iview/iview/issues"
+    "url": "https://github.com/daiyuequen/JWIS-ui.git"
   },
   "dependencies": {
     "async-validator": "^1.7.1",
@@ -106,7 +59,6 @@
     "vue-html-loader": "^1.2.3",
     "vue-loader": "^11.0.0",
     "vue-router": "^2.2.1",
-    "less-loader":"^4.0.5",
     "vue-style-loader": "^1.0.0",
     "vue-template-compiler": "^2.3.3",
     "webpack": "^2.2.1",
@@ -114,11 +66,7 @@
     "webpack-merge": "^3.0.0"
   },
   "directories": {},
-  "dist": {
-    "integrity": "sha512-NxIiitvBGtX+x0PgikRi2UHXmMtYZfR7sgnziX0WbBsmXZMjZ1sL4G93KufmomEZh/n6hvJvDwWN9WNtzcVSSA==",
-    "shasum": "c00a11643622626feeb277e0de83b45077a8787c",
-    "tarball": "https://registry.npmjs.org/iview/-/iview-2.0.0-rc.18.tgz"
-  },
+  "dist": {},
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
@@ -128,9 +76,8 @@
     "src"
   ],
   "gitHead": "e4767e5a90a53f4fe4be94d410dcdbcbcee579f7",
-  "homepage": "http://www.iviewui.com",
   "keywords": [
-    "iview",
+    "jwis",
     "vue",
     "vue.js",
     "component",
@@ -146,7 +93,7 @@
       "email": "admin@aresn.com"
     }
   ],
-  "name": "iview",
+  "name": "JWIS-ui",
   "optionalDependencies": {},
   "peerDependencies": {
     "vue": "^2.1.10"
@@ -154,19 +101,9 @@
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iview/iview.git"
+    "url": "git+https://github.com/daiyuequen/JWIS-ui.git"
   },
-  "scripts": {
-    "dev": "webpack-dev-server --content-base test/ --open --inline --hot --compress --history-api-fallback --port 8081 --config build/webpack.dev.config.js",
-    "dist": "npm run dist:style && npm run dist:dev && npm run dist:prod",
-    "dist:dev": "webpack --config build/webpack.dist.dev.config.js",
-    "dist:prod": "webpack --config build/webpack.dist.prod.config.js",
-    "dist:style": "gulp --gulpfile build/build-style.js",
-    "lint": "eslint --fix --ext .js,.vue src",
-    "prepublish": "npm run dist",
-    "test": "npm run lint && npm run unit",
-    "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run"
-  },
-  "title": "iView",
-  "version": "2.0.0-rc.18"
+  "scripts": {},
+  "title": "JWIS-ui",
+  "version": "1.0.0"
 }
